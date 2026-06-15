@@ -114,6 +114,8 @@ def home():
         tabela_sexo=tabela_sexo,
         mapa_html=mapa_html
     )
+import os
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
