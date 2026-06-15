@@ -1,1 +1,0 @@
-# Trabalho-Big-Data-em-Python
